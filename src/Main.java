@@ -5,7 +5,7 @@ import model.Tv;
 public class Main {
     public static void main(String[] args) {
         Tv quarto = new Tv();//CONSTRUTOR DEFAULT
-        Tv sala = new Tv(true, 15, 75); //CONSTRUTOR COMPLETO
+        // Tv sala = new Tv(true, 15, 75); //CONSTRUTOR COMPLETO
 
         System.out.println(quarto.toString());
         quarto.alterar_estado();
